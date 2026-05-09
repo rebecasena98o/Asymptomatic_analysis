@@ -11,14 +11,17 @@ Este repositório contém a implementação e análise de tempo de diferentes al
 
 ## 🚀 Como Compilar e Rodar
 
-Para compilar o projeto completo usando o arquivo principal:
+Para compilar o projeto usando o arquivo principal é necessário escolher qual algoritmo a ser compilado, por exemplo:
 
 ```bash
-gcc main.c HeapSort/heapsort.c QuickSort/quicksort.c RadixSort/radixsort.c -o programa_analise -Wall
+na main:
+#include "RadixSort/radixsort.h" - sem comentário - linha 6
+radixSort(vetor, n); - sem comentário - linha 39
+gcc  RadixSort/radixsort.c main.c -o programa_teste_Radix
 ```
 
 Para executar:
 ```bash
-./programa_analise
+./programa_teste_Radix
 ```
 
